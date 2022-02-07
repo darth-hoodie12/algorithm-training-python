@@ -1,7 +1,7 @@
 from typing import Any, Sequence
 
-def seq_search(a: Sequence, key: Any) -> Any:
-    """ Sequence a에서 key값이 같은 원소의 인덱스 반환 """
+def seq_search(a: Sequence, key: Any) -> int:
+    """ Sequence a에서 key값이 같은 원소의 인덱스(int) 반환 """
     length = len(a)
 
     for i in range(length):
